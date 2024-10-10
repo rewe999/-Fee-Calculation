@@ -1,0 +1,23 @@
+{
+    "require": {
+        "php": "^8.0"
+    },
+    "name": "pragmagotech/interview",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Patryk Zym",
+            "email": "zymek998@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PragmaGoTech\\Interview\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10",
+        "symplify/easy-coding-standard": "^12.3",
+        "kubawerlos/php-cs-fixer-custom-fixers": "^3.22"
+    }
+}
